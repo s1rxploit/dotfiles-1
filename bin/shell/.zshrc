@@ -30,11 +30,13 @@ alias documents="$HOME/Documents"
 # Projects Directory
 # ---------------------------------------------------------------------------
 
-PROJECTS="$HOME/Projects"
+PROJECTS="$HOME/projects"
 
 alias github="$PROJECTS/github"
 alias sandbox="$PROJECTS/sandbox"
 alias projects="$PROJECTS"
+alias coderio="$PROJECTS/coder.io"
+alias servenow="NODE_ENV=local NODE_PORT=3000 pm2 start server/server.js"
 
 # Dev Stuff
 # ---------------------------------------------------------------------------
