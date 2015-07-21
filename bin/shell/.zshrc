@@ -36,7 +36,7 @@ alias github="$PROJECTS/github"
 alias sandbox="$PROJECTS/sandbox"
 alias projects="$PROJECTS"
 alias coderio="$PROJECTS/coder.io"
-alias servenow="NODE_ENV=local NODE_PORT=3000 pm2 start server/server.js"
+alias servenow="NODE_ENV=local NODE_PORT=3000 pm2 start server/server.js --watch"
 
 # Dev Stuff
 # ---------------------------------------------------------------------------
