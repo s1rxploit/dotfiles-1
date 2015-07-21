@@ -1,10 +1,12 @@
 {
   "in_process_packages": [],
   "installed_packages": [
+    "Alignment",
     "AngularJS",
     "GitGutter",
     "Handlebars",
     "HTML5",
+    "JSCS-Formatter",
     "LESS",
     "Package Control",
     "Pretty JSON",
