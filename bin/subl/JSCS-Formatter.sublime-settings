@@ -11,7 +11,7 @@
   "jscs_path": {
     "windows": "%APPDATA%/npm/node_modules/jscs/bin/jscs",
     "linux": "/usr/bin/jscs",
-    "osx": "/opt/boxen/nodenv/versions/v0.12.5/bin/jscs"
+    "osx": "/opt/boxen/nodenv/versions/0.12.7/bin/jscs"
   },
 
   // Specify this path to a JSCS config file to override the default behavior.
