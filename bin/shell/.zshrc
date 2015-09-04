@@ -35,9 +35,8 @@ PROJECTS="$HOME/projects"
 alias github="$PROJECTS/github"
 alias sandbox="$PROJECTS/sandbox"
 alias projects="$PROJECTS"
-alias coderio="$PROJECTS/coder.io"
+alias coderio="$PROJECTS/coder"
 alias servenow="NODE_ENV=local NODE_PORT=3000 pm2 start server/server.js --watch"
-
 # Dev Stuff
 # ---------------------------------------------------------------------------
 
@@ -98,3 +97,6 @@ function gemdir {
 if [[ -d /opt/boxen ]] ; then
   [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 fi
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
