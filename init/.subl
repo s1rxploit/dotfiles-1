@@ -19,6 +19,26 @@ function install_preferences () {
   cp -f "$DOT/bin/subl/Package Control.sublime-settings" "$ST3/Packages/User/Package Control.sublime-settings"
 
   echo ""
+  echo "Install Sublime Text 3 Packages:"
+  echo "JSCS-Formatter.sublime-settings"
+  cp -f "$DOT/bin/subl/JSCS-Formatter.sublime-settings" "$ST3/Packages/User/JSCS-Formatter.sublime-settings"
+
+  echo ""
+  echo "Install Sublime Text 3 Packages:"
+  echo "HTMLPrettify.sublime-settings"
+  cp -f "$DOT/bin/subl/HTMLPrettify.sublime-settings" "$ST3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings"
+
+  echo ""
+  echo "Install Sublime Text 3 Packages:"
+  echo "jsbeautifyrc"
+  cp -f "$DOT/bin/subl/.jsbeautifyrc" "$ST3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc"
+
+  echo ""
+  echo "Install Sublime Text 3 Packages:"
+  echo "jscsrc"
+  cp -f "$DOT/bin/subl/.jscsrc" "$HOME/Projects/.jscsrc"
+
+  echo ""
   brew cask cleanup
   killall Sublime\ Text
   sleep 1

@@ -13,6 +13,8 @@
     "Pretty YAML",
     "Sass",
     "SCSS",
-    "SideBarEnhancements"
+    "SideBarEnhancements",
+    "JSCS-Formatter",
+    "HTML-CSS-JS Prettify"
   ]
 }
