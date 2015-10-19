@@ -36,7 +36,8 @@ alias github="$PROJECTS/github"
 alias sandbox="$PROJECTS/sandbox"
 alias projects="$PROJECTS"
 alias coderio="$PROJECTS/coder"
-alias servenow="NODE_ENV=local NODE_PORT=3000 pm2 start server/server.js --watch"
+#alias servenow="NODE_ENV=local NODE_PORT=3000 pm2 start server/server.js --watch"
+alias servenow="NODE_ENV=local NODE_PORT=3000 pm2 start server/server.js"
 # Dev Stuff
 # ---------------------------------------------------------------------------
 
@@ -100,3 +101,8 @@ fi
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Homebrew
+export PATH="/usr/local/bin:$PATH"
+export PATH="$PATH:/usr/sbin"
+export PATH="/sbin/:$PATH"
