@@ -44,6 +44,10 @@ install_formula () {
   # brew install android-sdk
 
   echo ""
+  echo "  ➜ facebook watchman"
+  brew install watchman
+
+  echo ""
   echo "  ➜ libyaml"
   brew install libyaml
 
