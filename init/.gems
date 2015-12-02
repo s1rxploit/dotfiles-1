@@ -16,15 +16,13 @@ function installgem () {
   fi
 }
 
-installgem rb-gsl
 installgem bootstrap-sass
 installgem bundler
 installgem compass
 installgem foundation
-installgem github-pages
+installgem jekyll
 installgem rails
 
 echo ""
 echo "Cleaning up..."
 gem cleanup
-

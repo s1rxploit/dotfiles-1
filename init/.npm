@@ -4,18 +4,19 @@
 node_modules=(
   bower
   coffee-script
+  copy2gist
   express
   grunt-cli
   gulp
+  jscs
   jshint
   karma-cli
-  less
-  strongloop
-  mean-cli
-  mongoose
+  node-gyp
   nodemon
-  sails
-  shelljs
+  npm
+  pm2
+  strongloop
+  superstatic
 )
 
 # Install Node Packages
