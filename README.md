@@ -14,7 +14,7 @@ version `0.1.14`
 $ curl -L -O https://github.com/silverbux/dotfiles/archive/master.zip
 
 # unzip the file and move to $HOME directory
-unzip master.zip && mv master ~/.dotfiles
+unzip master.zip && mv dotfiles-master ~/.dotfiles
 
 # run bootstrap!
 sh ~/.dotfiles/bootstrap.sh
