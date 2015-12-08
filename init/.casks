@@ -8,11 +8,6 @@ function cask() {
   fi
 }
 
-
-echo ""
-echo "Installing ampps"
-cask ampps
-
 echo ""
 echo "Installing appcleaner"
 cask appcleaner
