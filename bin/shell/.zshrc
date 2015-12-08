@@ -106,3 +106,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="$PATH:/usr/sbin"
 export PATH="/sbin/:$PATH"
+
+PHP_AUTOCONF=/usr/bin/autoconf
