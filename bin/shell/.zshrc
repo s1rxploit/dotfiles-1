@@ -111,3 +111,5 @@ PHP_AUTOCONF=/usr/bin/autoconf
 
 export APPLICATION_ENV="local"
 export PATH="/Applications/AMPPS/php-5.6/bin:$PATH"
+export PATH="/Applications/AMPPS/mysql/bin:$PATH"
+
