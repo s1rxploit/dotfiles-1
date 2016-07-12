@@ -108,3 +108,6 @@ export PATH="$PATH:/usr/sbin"
 export PATH="/sbin/:$PATH"
 
 PHP_AUTOCONF=/usr/bin/autoconf
+
+export APPLICATION_ENV="local"
+export PATH="/Applications/AMPPS/php-5.6/bin:$PATH"
