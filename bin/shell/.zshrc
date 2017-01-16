@@ -110,6 +110,7 @@ export PATH="/sbin/:$PATH"
 PHP_AUTOCONF=/usr/bin/autoconf
 
 export APPLICATION_ENV="local"
-export PATH="/Applications/AMPPS/php-5.6/bin:$PATH"
-export PATH="/Applications/AMPPS/mysql/bin:$PATH"
+export PATH="/opt/homebrew-cask/Caskroom/ampps/3.3/AMPPS/php-5.6/bin:$PATH"
+export PATH="/opt/homebrew-cask/Caskroom/ampps/3.3/AMPPS/mysql/bin:$PATH"
+export PATH="/Users/silverbux/.composer/vendor/bin:$PATH"
 
