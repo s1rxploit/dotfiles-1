@@ -114,3 +114,5 @@ export PATH="/opt/homebrew-cask/Caskroom/ampps/3.3/AMPPS/php-5.6/bin:$PATH"
 export PATH="/opt/homebrew-cask/Caskroom/ampps/3.3/AMPPS/mysql/bin:$PATH"
 export PATH="/Users/silverbux/.composer/vendor/bin:$PATH"
 
+ssh-add -A &> /dev/null
+
